@@ -13,14 +13,9 @@
 + 王宇鹏
 >学习了开源的分布式数据库框架及其内部通信协议，数据处理，数据采集等基本内容。
 # 下一步方向
-```flow
-st=>start:开始
-e=>end:结束
-op=>operation:研究地图重构算法
-c1=>condition:Yes or No?
-io=>inputoutput:产品实现
-st->op->c1
-c1(yes)->io->e
-c1(no)->op
+```mermaid
+graph TD;
+A-->B;
+
 ```
 这个工作模式持续到11月份
